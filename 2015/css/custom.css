@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("//cdn.jsdelivr.net/flat-ui/2.2.2/css/flat-ui.css");
+
+body {
+    color: #34495e !important;
+    font-family: "Lato", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Lato", sans-serif !important;
+    color: #34495e;
+}
+
+h3 { font-size: 35px !important; }
+h6 { font-size: 20px !important; }
+
+textarea {
+    resize: vertical;
+}
+
+td > img {
+    max-height: 90px;
+}
+
+img {
+  max-width: 100%;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
