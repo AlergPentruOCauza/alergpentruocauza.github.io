@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://alergpentruocauza.bloggify.org/users -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Users</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index_files/style.css">
+        <link rel="stylesheet" href="./index_files/custom.css">
+        <link rel="icon" href="http://alergpentruocauza.bloggify.org/images/me-xs.png">
+        <script src="./index_files/jquery-1.11.1.min.js"></script>
+        <script src="./index_files/bootstrap.min.js"></script>
+        <script>
+            $(document).on("ready", function () {
+                var $modal = $(".modal");
+                $("tbody tr").on("click", function (e) {
+                    if ($(e.target).attr("href")) { return; }
+                    var $this = $(this);
+                    $modal.find("#userLabel").text($this.find("td:eq(2)").text());
+                    $modal.find(".avatar").html($this.find("td:eq(1)").html());
+                    $modal.find(".message").html($this.find("td:eq(4)").html());
+                    var $donateBtn = $modal.find(".donate-btn").attr("href", $this.find("td.donate-form").text());
+                    if (!$donateBtn.attr("href")) {
+                        $donateBtn.hide();
+                    } else {
+                        $donateBtn.show();
+                    }
+                    $modal.modal("show");
+                });
+                if (location.search === "?embed=true") {
+                    $(".footer").hide();
+                    $("body").css("background", "transparent");
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Avatar</th>
+              <th>Nume</th>
+              <th style="width: 20%;">Segment de traseu</th>
+              <th class="hide" style="width: 20%;">Mesaj</th>
+              <th>Suma Țintă (RON)</th>
+              <th>Contact</th>
+              <th>Donează</th>
+            </tr>
+          </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.ykovnldwgzjxxbt9" class="img-circle">
+                    </td>
+                    <td>Coste Alina</td>
+                    <td>
+                        Pocola - ieșire - Data 18-Sep 16:00
+                    </td>
+                    <td class="hide">Ne-am obisnuit ca tot ce facem sa ne aduca un castig. E timpul sa oferim din ceea ce am primit de la Dumnezeu si celor care nu sunt atat de privilegiati. Prin mica mea implicare vreau sa aduc o incurajare elevilor din liceul in care eu insami am studiat.</td>
+                    <td>200</td>
+                    <td>allacoste@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/alina-coste</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/alina-coste" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.iiom8um2q4vg3nmi.jpg" class="img-circle">
+                    </td>
+                    <td>Egyed Robert</td>
+                    <td>
+                        Timișoara - Parcul Botanic - Data 17-Sep 9:00
+                    </td>
+                    <td class="hide">Oameni pt.oameni</td>
+                    <td>100</td>
+                    <td>noemimelania@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/robert-egyed</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/robert-egyed" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.64q21i49lu4pwrk9.jpg" class="img-circle">
+                    </td>
+                    <td>Samuel Ciorna</td>
+                    <td>
+                        Beiuș - centru - Data 18-Sep 16:30
+                    </td>
+                    <td class="hide">Vreau si eu sa urmez pe surioara mea!</td>
+                    <td>100</td>
+                    <td>nkmatova@yahoo.com</td>
+                    <td class="hide donate-form"></td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.rbzt3jrfjx4unmi.jpg" class="img-circle">
+                    </td>
+                    <td>Munteanu Calin</td>
+                    <td>
+                        Drum - după Șoimi, la carieră - Data 18-Sep 14:30
+                    </td>
+                    <td class="hide">Oamenii alearga din diverse cauze. Majoritatea le cunosc foarte bine. Ca fost elev al Colegiului National Samuil Vulcan ma bucur sa ma alatur lui Remus si ,,Asociatiei Bunul Samaritean'' in aceasta initiativa de a ajuta cativa elevi merituosi ai acestei vechi si respectabile institutii de invatamant. Asadar Duminica voi alerga pentru o cauza. Va rog sa ma sustineti. Nu conteaza cu ce suma, conteaza daca o faceti!</td>
+                    <td>200</td>
+                    <td>mcv77b@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/calin-munteanu</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/calin-munteanu" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.ykd1l2nmjs2lnmi.jpg" class="img-circle">
+                    </td>
+                    <td>Daniela SABAU</td>
+                    <td>
+                        Timișoara - Parcul Botanic - Data 17-Sep 9:00
+                    </td>
+                    <td class="hide">Donez cu recunostinta pentru ceea ce am primit in viata</td>
+                    <td>150</td>
+                    <td>danaoliv@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/daniela-sabau</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/daniela-sabau" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        6.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.ne3bjl6nhl9mgqfr.jpg" class="img-circle">
+                    </td>
+                    <td>marcu cristian si ema marcu</td>
+                    <td>
+                        Timișoara - Parcul Botanic - Data 17-Sep 9:00
+                    </td>
+                    <td class="hide">Unii au altii nu , uni stiu altii nu , unii pot altii incearca  , de data asta sunbtem printre cei care incearca ............</td>
+                    <td>500</td>
+                    <td>emabeius@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/cristian-ema-marcu</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/cristian-ema-marcu" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        7.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.re26oyvmpshsemi.jpg" class="img-circle">
+                    </td>
+                    <td>Claudia Sime</td>
+                    <td>
+                        Borz - ieșire - Data 18-Sep 15:00
+                    </td>
+                    <td class="hide">Ma bucur sa pot fi si acest an alaturi de sotul meu caruia ii pasa de  oamenii de langa el, continuand visul si gandul de a ajuta copiii care acum invata la liceul in care el a studiat din Beius.
+Prin aceasta activitate speram sa putem fi de ajutor copiilor care lupta, sunt sarguinciosi dar nu sunt favorizati din punct de vedere financiar. Scopul este sa daruim cateva burse si acest an, dar si sa sensibilizam societatea la gandul ca sunt oameni faini si capabili langa noi pe care daca ii motivam vor fi ei la randul lor un motor de incurajare si daruire pentru cei din proximitatea lor.
+Sunt mandra de initiativa si perseverenta sotului meu Remus :)
+Va multumesc anticipat pentru implicarea in eveniment,
+Claudia Sime </td>
+                    <td>1300</td>
+                    <td>cheryl_claudia@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/claudia-sime</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/claudia-sime" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        8.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.r44ybd136voq1tt9.jpg" class="img-circle">
+                    </td>
+                    <td>Gligor Delia-Cristina</td>
+                    <td>
+                        Pocola - ieșire - Data 18-Sep 16:00
+                    </td>
+                    <td class="hide">Dragi prieteni, sunt motivată să alerg alături de domnul Remus Sime pentru strîngerea de burse deoarece în primul rînd îmi place să alerg  iar în al doilea rînd îmi place să ajut pe cineva. Vreau să mă susțineți făcand donații pentru acești elevi care au nevoie de o bursă socială.</td>
+                    <td>100</td>
+                    <td>d_gligor@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/delia-gligor</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/delia-gligor" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        9.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.6aogfdol4ttq33di.JPG" class="img-circle">
+                    </td>
+                    <td>Coman Cosmin</td>
+                    <td>
+                        Timișoara - Parcul Botanic - Data 17-Sep 9:00
+                    </td>
+                    <td class="hide">Alerg , pentru ca am primit acest dar de la Dumnezeu si vreau sa il impart si cu altii, sustinand copiii cu rezultate foarte bune la invatatura care merita sa fie ajutati sa aiba un viitor mai bun, asa cum si-l doresc!</td>
+                    <td>500</td>
+                    <td>coman_cosmin2004@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/cosmin-coman</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/cosmin-coman" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        10.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.y01a0wypl1r4fgvi.jpg" class="img-circle">
+                    </td>
+                    <td>goicovici roberto</td>
+                    <td>
+                        Pocola - ieșire - Data 18-Sep 16:00
+                    </td>
+                    <td class="hide">imi place ideea de voluntariat si doresc sa ma implic ori de cate ori pot pentru a fi de ajutor</td>
+                    <td>100</td>
+                    <td>roberto_goicovici@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/roberto-goicovici</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/roberto-goicovici" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        11.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.z3r3e3093u40a4i.JPG" class="img-circle">
+                    </td>
+                    <td>Mischie Lionel Geo</td>
+                    <td>
+                        Pocola - ieșire - Data 18-Sep 16:00
+                    </td>
+                    <td class="hide">Compasiunea este una din manifestările practice ale credinţei creştine. Compasiunea înseamnă să fii gata să-l ajuţi pe cel care nu se poate ajuta singur, să împlineşti o nevoie care altfel nu poate fi împlinită. Sigur, trebuie să le arătăm compasiune celor din familia noastră, mai restrânsa, sau mai largă, celor din biserica noastră locală, dar dincolo de aceasta am convingerea că trebuie să arătăm compasiune pentru cei din comunitatea în care Dumnezeu ne-a aşezat pentru o vreme.
+„Alerg pentru o cauză” este pentru mine o ocazie specială de a face acest din urmă lucru, şi vă invit şi pe voi să veniţi alături de mine în ajutorul unui tânăr/unei tinere cu rezultate bune la învăţătură, dar cu greutăţi financiare în familie. Ajutaţi-mă să strâng echivalentul unei burse, 1350 lei, donând o sumă cât de mică şi alergând împreună pentru aceasta cauză,între Pocola şi Beiuş, duminică, 18 septembrie 2016. Vă mulţumesc tuturor.</td>
+                    <td>1350</td>
+                    <td>lionel.mischie@gmail.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/lionel-mischie</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/lionel-mischie" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        12.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.374ytsbtjwfxn7b9" class="img-circle">
+                    </td>
+                    <td>Nicula Adrian Sorin</td>
+                    <td>
+                        Ineu - ieșire/centura - Data 18-Sep 8:00
+                    </td>
+                    <td class="hide">Impreuna putem sprijini copiii mai putin norocosi sa aibe si ei o viata mai usoara  si sa-si urmeze visele !</td>
+                    <td>1000</td>
+                    <td>anicula304@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/adrian-nicula</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/adrian-nicula" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        13.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.7nw448cbolce4s4i.jpg" class="img-circle">
+                    </td>
+                    <td>Nadasan Daniela</td>
+                    <td>
+                        Timișoara - Parcul Botanic - Data 17-Sep 9:00
+                    </td>
+                    <td class="hide">Educatia generatiei de maine este  obligatia morala a generatie actuale.De ei depinde viitorul .  
+Ce ne ramane noua de facut ? Sa ne implicam activ  sa le aratam ca NE PASA !</td>
+                    <td>500</td>
+                    <td>daniela_nadasan@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/daniela-nadasan</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/daniela-nadasan" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        14.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.p71v4gl316as8aor.jpg" class="img-circle">
+                    </td>
+                    <td>Dronca Darius</td>
+                    <td>
+                        Drum - dupa traversare autostradă - Data 17-Sep 10:30
+                    </td>
+                    <td class="hide">Copiii au nevoie si de sustinere materiala in dorinta lor de invatare, iar unii nu o au, dar noi ii putem ajuta!</td>
+                    <td>200</td>
+                    <td>darius_dronca@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/darius-dronca</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/darius-dronca" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        15.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.0lujtlpkh8ouhaor.jpg" class="img-circle">
+                    </td>
+                    <td>Muresan Valentin</td>
+                    <td>
+                        Timișoara - Parcul Botanic - Data 17-Sep 9:00
+                    </td>
+                    <td class="hide">Educatia poate fi un factor important in ecuatia problemelor sau succeselor noastre. Mai multa educatie inseamna mai putine probleme. Mai putine probleme inseamna mai multa energie disponibila pentru construi povesti de succes. Educatia poate inclina balanta inspre "mai bine". Imi aduc contributia mea la inclinarea balantei cu 43 de km, varsta pe care am implinit-o in acest an. Doneaza si tu!</td>
+                    <td>2000</td>
+                    <td>val.muresan@gmail.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/valentin-muresan</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/valentin-muresan" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        16.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.4vui4jiw117tlnmi" class="img-circle">
+                    </td>
+                    <td>HUS RAZVAN</td>
+                    <td>
+                        Drum - intersecție Olcea - Data 18-Sep 12:00
+                    </td>
+                    <td class="hide">Pentru elevii care merita</td>
+                    <td>75</td>
+                    <td>razvan_hus@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/razvan-hus</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/razvan-hus" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        17.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.v5qfpq8xx8yqfr.jpg" class="img-circle">
+                    </td>
+                    <td>ANTAL MONICA</td>
+                    <td>
+                        Lipova - ieșire, spălătorie tir - Data 17-Sep 15:00
+                    </td>
+                    <td class="hide">Dear friends, I'm running for a cause on the 17-18 September,  with the aim of gathering  scholarship funding for some children with very good results at school.  You can help out with a little. Toghether we can change the future.</td>
+                    <td>1500</td>
+                    <td>antal.monica23@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/monica-antal</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/monica-antal" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        18.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.lx0ulffn0zskbj4i.jpg" class="img-circle">
+                    </td>
+                    <td>Mihaela Badila</td>
+                    <td>
+                        Timișoara - Parcul Botanic - Data 17-Sep 9:00
+                    </td>
+                    <td class="hide">Salutare prieteni!
+
+Cu mare drag va invit sa sustinem si anul acesta initiativa lui Remus: "Alerg pentru o cauza".
+
+In weekendul 17-18 septembrie se va alerga in stefata drumul Timisoara-Beius. Haideti si voi.
+
+Banii stransi vor fi donati sub forma de burse unor copii din judetul Bihor care au note foarte bune la invatatura, dar provin din familii cu venituri modeste.
+
+Puteti ajuta fie donand, alergand o tura din stafeta sau pur si simplu facand campania cunoscuta mai departe.
+
+Orice mic gest conteaza ^_^</td>
+                    <td>100</td>
+                    <td>badila.mihaela@gmail.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/mihaela-badila</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/mihaela-badila" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        19.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.h57ww8qv71rzr529.jpg" class="img-circle">
+                    </td>
+                    <td>Dumea Cristian Andrei</td>
+                    <td>
+                        Ineu - ieșire/centura - Data 18-Sep 8:00
+                    </td>
+                    <td class="hide">Informatia inseamna putere. Educatia te ajuta sa obtii informatia.</td>
+                    <td>3500</td>
+                    <td>dumeacristi@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/cristian-dumea</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/cristian-dumea" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        20.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.s6jt6olosmwsif6r.jpg" class="img-circle">
+                    </td>
+                    <td>Popa Andrada Sorana</td>
+                    <td>
+                        Beiuș - centru - Data 18-Sep 16:30
+                    </td>
+                    <td class="hide">Acesti copii merita merita un viitor mai bun ...</td>
+                    <td>50</td>
+                    <td>andradasorana@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/andrada-sorana-popa</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/andrada-sorana-popa" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        21.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.6mudsgoalgtlnmi.jpg" class="img-circle">
+                    </td>
+                    <td>Sime Remus</td>
+                    <td>
+                        Lipova - ieșire, spălătorie tir - Data 17-Sep 15:00
+                    </td>
+                    <td class="hide">Salut prieteni si sustinatori ai proiectului "Alerg Pentru O Cauza"!
+
+Va multumesc pentru sustinerea din cele 4 editii anterioare. Anul acesta continuam proiectul prin care alergam pentru a strange bani pentru a da burse anuale elevilor merituosi ai Colegiului National Samuil Vulcan Beius care invata foarte bine dar care au o situatie materiala mai anevoioasa.
+
+Te invit si anul acesta sa donezi, dar te invit sa faci mai mult: sa vii si sa alergi cu noi, in cadrul stafetei de 2 zile de la Timisoara pana la Beius.
+
+Alege-ti o portiune de 5 km din traseu. Fii omul care duce stafeta Alerg Pentru O Cauza pe acei 5 km.
+
+Arata-le prietenilor tai ce faci tu si incurajeaza-i sa te sustina si sa faca o donatie pentru elevii din Beius.
+
+Inscrie-te pe www.alergpentruocauza.ro si ne vedem la start: 17 septembrie, ora 9:00, Parcul Botanic din Timisoara.</td>
+                    <td>5000</td>
+                    <td>sime_remus@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/remus-sime</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/remus-sime" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        22.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.x9pkkctulhyw4s4i.JPG" class="img-circle">
+                    </td>
+                    <td>Adrian Ciorna</td>
+                    <td>
+                        Pocola - ieșire - Data 18-Sep 16:00
+                    </td>
+                    <td class="hide">ROMÂNĂ
+Dragi prieteni, anul acesta sărbătorim 5 ani de existența a proiectului ”Alerg pentru o cauză”. Acest proiect a schimbat viața a 50 de elevi merituoși cu venituri reduse. Motivat de reușita mea alergare de anul trecut, m-am hotărăt să alerg dinnou ultimul segment din ștafeta de 200km, anume Pocola-Beiuș, astfel alăturându-I se lui Remus și ceilalti alergători. 
+Personal am strâns fonduri din 2010 încoace pentru burse de merit pe discipline iar acum sunt onorat să fiu lângă Remus și alți alergători fundraiseri voluntari în exercițiul de atragere fonduri pentru burse sociale&amp;merit la Colegiul Național "Samuil Vulcan" Beiuș unde, ca și Remus, m-am format și eu.
+Tinerii modești financiar dar cu performanțe școlare merită ajutorul nostru! O bursă nu e puțin lucru când nevoile sunt așa de multe acasă... Bursele se acordă pentru anul școlar 2016-2017. Deci, vă invit să mă susțineți în alergarea aceasta apăsând mai jos butonul ”Vreau să fac o donație” și completând simplu, în doar 2 minute formularul electronic de donație. 
+Alternativ, puteți alege un segment anume de 5km din cele 40 disponibile de pe traseu înscriinduva ca alergător pe site-ul www.alergpentruocauza.ro ! Zecile de tineri liceeni ca și Bogdan, Roxana, Mihai, Andrada, Timea, Bianca sunt valori în care trebuie investit! Experiența alergării noastre presupune nu doar caritate dar și determinare ca voluntari. Îmi doresc ca viitorii bursieri beneficiari să aibe determinare constanta în proprie educare liceala și să creadă în ei înșiși.
+</td>
+                    <td>2700</td>
+                    <td>adrian.ciorna@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/adrian-ciorna-2016</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/adrian-ciorna-2016" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        23.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.okoe6q8664ea5rk9.jpg" class="img-circle">
+                    </td>
+                    <td>Ciorna Cosmina</td>
+                    <td>
+                        Beiuș - centru - Data 18-Sep 16:30
+                    </td>
+                    <td class="hide">none</td>
+                    <td>0</td>
+                    <td>nkmatova@yahoo.com</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/samuel-ciorna</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/samuel-ciorna" target="_blank">Donează</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        24.
+                    </td>
+                    <td>
+                        <img src="./index_files/0.cpebpii1ed8to6r.jpg" class="img-circle">
+                    </td>
+                    <td>Ciorna Elena</td>
+                    <td>
+                        Pocola - ieșire - Data 18-Sep 16:00
+                    </td>
+                    <td class="hide">RO) Dragi prieteni, 
+Anul trecut a fost prima mea alergare în aceasta ștafeta și primul meu proiect caritabil. Prin acest efort al meu am simțit că am putut face și eu o fapta buna. A fost o experiența de neuitat, fiind sprijinită cu donații de către familia mea, rude, mai mulți colegi de clasa și de d-na învățătoare. Neașteptat pentru mine am putut stânge bani pentru aproape o bursa întreagă! Am avut ocazia de a întâlni câțiva dintre bursierii și m-am simțit foarte fericita și emoționată să o cunosc pe bursiera Georgiana pe care am putut sprijini cu banii strânși de mine. Voi participa și anul acesta în ștafetă. De data aceasta îmi propun să strâng toți 1350 lei necesari pentru a sprijini din nou un elev în nevoie precum Georgiana. 
+Vă mulțumesc pentru implicarea de până acum și va rog să fiți din nou alături de mine donând pentru aceasta cauza nobila. Să faceți o donație este foarte simplu și durează doar 2 minute: apăsați butonul ”Vreau să fac o donație” și urmați instrucțiile pentru a completa formularul de donație. Impreună putem face diferentă în viața cuiva!
+EN) Dear friends,
+Last year was my first run in this relay race and my first charitable project. Through this effort of mine I felt that I also could do a good deed. It was unforgettable experience being supported with donations by my family, relatives, some colleagues of mine and my teacher. Unexpectedly to me I could fundraise enough money for almost a whole scholarship! I had the occasion to meet some of the scholars and I felt very happy and touched to know Georgiana, the girl I could support with the money fundraised by me. This year I will participate in the run again. This time I would like to be able to raise all 1350 lei (approx. $350) needed for a whole scholarship so I can support another student like Georgiana.
+Thank you for your last involvement and please support me again making a donation for this noble cause. It is very simple to make a donation by pushing the button ”I want to donate” following the instructions to complete the electronic form in only 2 minutes.
+</td>
+                    <td>1350</td>
+                    <td>nikki.ciorna@goodsamaritan.ro</td>
+                    <td class="hide donate-form">http://bunulsamaritean.galantom.ro/elena-ciorna</td>
+                    <td>
+                        <a class="btn btn-info" href="http://bunulsamaritean.galantom.ro/elena-ciorna" target="_blank">Donează</a>
+                    </td>
+                </tr>
+          </tbody>
+        </table>
+        <!-- Modal -->
+        <div class="modal fade" id="user" tabindex="-1" role="dialog" aria-labelledby="userLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="userLabel"></h4>
+              </div>
+              <div class="modal-body">
+                  <div class="row">
+                      <div class="col-md-3 text-center avatar"></div>
+                      <div class="col-md-9 message"></div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-info pull-left donate-btn" href="http://alergpentruocauza.bloggify.org/users" target="_blank">Donează</a>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Închideți</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
+</body></html>
